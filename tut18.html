@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Height,width,border and background</title>
+    <style>
+      #firstpara {
+        background-color: red;
+        height: 100px;
+        width: 455px;
+        border:4px solid green
+        /* border-width: 4px;
+        border-color: green;
+        border-style: solid; */
+        border -radius: 15px
+       }
+
+       p {
+        background-color: rgb(58, 243, 98);
+        height: 100px;
+        width: 455px;
+       border-top:  2px solid green;
+       border-right: 2px solid rgb(18,10,133);
+       border-bottom: 2px solid rgba(9, 144, 24, 0.744);
+       border-left: 2px solid rgb(156, 42, 13);
+       border-top-left-radius: 4px;
+        border-top-left-radius: 14px;
+        border-bottom-right-radius: 8px;
+         border-bottom-left-radius: 24px;
+
+       }
+       #thirdpara{
+              background-color: white;
+             background-image:url('https://vodcdn.abplive.in/2020/08/097aecd8beeb7ef4a08b87143959e96b.jpg?impolicy=abp_cdn&imwidth=330') ;
+              height: 500px;
+              width: 455px;
+             background-repeat:no-repeat; /*repeat-x and repeat-y will make it repat on x and y axis*/
+             /*      background-position:192opx 34px ;*/
+             /*      background-position:center center ;*/
+                 /* background-position:center top ;*/
+                  background-position:top left ;
+                 /* background-position:top center ;*/
+      }
+    </style>
+  </head>
+  <body>
+    <h3>This is heading</h3>
+    <p id="firstpara">This is paragraph</p>
+
+    <h3>This is Second heading</h3>
+    <p id="Secondtpara">This is my Second paragraph</p>
+
+    <h3>This is third heading</h3>
+    <p id="thirdpara">This is my third paragraph</p>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alignment</title>
+    <link href='https://fonts.googleapis.com/css?family=Alike Angular' rel='stylesheet'>
+    <style>
+
+     * {
+      box-sizing: border-box;
+
+
+    }
+     body{ 
+      font-family: 'Alike Angular';font-size: 15px;
+
+
+    }
+    .container{ 
+        width: 900px;         
+        border: 3px solid purple;
+        background-color: rgb(250, 226, 205);
+        margin:  33px auto ;
+
+
+
+  }
+
+     .item{  
+          border: 3px solid grey;
+          margin:12px 3px ;
+          padding:12px 3px ;
+          background-color:rgb(248, 238, 238) ;
+
+    }
+    #fruit{ 
+
+     float: left;
+     width: 48%;
+  }
+ #computer{ 
+  float: right;
+     width: 48%;
+
+}
+ #stationary{
+
+ /* float: left;*/
+   /* clear: both;*/
+   clear: both;
+     width: 98.2%;
+}
+ p,h3{
+  /* text-align: right;
+   text-align: left;
+   text-align: center;*/
+   text-align: justify;
+}
+h1 {
+   margin: 23px auto;
+   width: 455px;
+   
+}
+  </style>
+  </head>
+  <body>
+    <div id="container">
+    <h1>Wel Come To My Store</h1>
+    <div class="container">
+      <div id="fruit" class="item">
+        <h3>fruits</h3>
+        <p id="fruitspara" class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aut assumenda hic, veritatis perspiciatis fuga consequuntur debitis in odio atque voluptates est, repellat consectetur, consequatur obcaecati illo suscipit quasi itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolores ipsum assumenda, reiciendis nihil quibusdam perferendis nisi, provident laborum animi repellat voluptas numquam, eius quas officiis sapiente dolorum aliquid nam rerum molestiae minima cumque.</p>
+
+    </div>
+
+    <div id="computer" class="item">
+        <h3>computer</h3>
+        <p id="computerpara" class="para"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et illo nam veniam modi aut numquam, ex soluta illum ipsa? Minima illum soluta odit fuga sint dolore aperiam eum magni deleniti. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quis ea eveniet nisi omnis. Eaque, amet aspernatur modi placeat alias eum voluptatum recusandae pariatur quas nesciunt aperiam delectus voluptate qui sapiente, nisi, odit error?</p>
+
+    </div>    <div id="stationary" class="item">
+        <h3>stationary</h3>
+        <p id="stationarypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sapiente dolore veniam fugit iste, minima, illum laboriosam necessitatibus aliquam voluptatibus voluptas inventore ad pariatur, illo sed. Recusandae perferendis ut provident!</p>
+        
+      </div>    <div id="glasses" class="item">
+        <h3>stationary</h3>
+        <p id="glassespara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati sapiente dolore veniam fugit iste, minima, illum laboriosam necessitatibus aliquam voluptatibus voluptas inventore ad pariatur, illo sed. Recusandae perferendis ut provident!</p>
+      </div>
+    
+    </div>
+  </body>
+</html>
